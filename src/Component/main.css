@@ -1,0 +1,62 @@
+.main{
+    width:1500px; 
+    text-align: left; 
+    padding:10px; 
+}
+.Filter{
+    max-width:1500px;
+    border:1px solid #222;
+    text-align: left; 
+    padding:10px; 
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    gap:0.5rem;
+}
+
+.mail-list{
+    max-width:1500px;
+    border:1px solid #222;
+    text-align: left; 
+    padding:10px; 
+    border-radius: 0.5rem;
+    list-style: none;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap:1rem;
+    padding:0.5rem;
+}
+.buttons button:first-child {
+   background-color: rgb(236, 187, 95);
+   padding:0.5rem;
+   border:none;
+   
+   cursor: pointer;
+   
+  }
+  .buttons button:nth-child(2){
+    background-color: rgb(50, 223, 93);
+    padding:0.5rem;
+   border:none;
+    cursor: pointer;
+  }
+  .star{
+    position: absolute;
+    top:1rem;
+    right:1rem;
+    background-color: aliceblue;
+    padding:0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .buttons button:last-child {
+    background-color: rgb(239, 107, 107);
+    padding:0.5rem ;
+    border:none;
+    cursor: pointer;
+   }

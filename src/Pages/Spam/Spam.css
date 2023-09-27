@@ -1,0 +1,36 @@
+.main{
+    width:1500px; 
+    text-align: left; 
+    padding:10px; 
+}
+.Filter{
+    max-width:1500px;
+    border:1px solid #222;
+    text-align: left; 
+    padding:10px; 
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    gap:0.5rem;
+}
+
+.mail-list{
+    max-width:1500px;
+    border:1px solid #222;
+    text-align: left; 
+    padding:10px; 
+    border-radius: 0.5rem;
+    list-style: none;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.star{
+  position: absolute;
+  top:1rem;
+  right:1rem;
+  background-color: aliceblue;
+  padding:0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
